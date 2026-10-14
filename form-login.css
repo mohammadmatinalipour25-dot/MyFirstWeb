@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  direction: rtl;
+  font-family: b titr;
+}
+
+#father {
+  display: block;
+  text-align: center;
+  justify-items: center;
+}
+
+header {
+  margin-top: 150px;
+  background-color: #00c9a7;
+  width: 550px;
+  height: 130px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  padding: 10px;
+}
+
+h1 {
+  position: relative;
+  top: 25px;
+  font-size: 60px;
+  color: white;
+}
+
+form {
+  padding: 10px;
+  justify-items: center;
+  width: 550px;
+  height: 300px;
+  background-color: #d65db1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+
+input {
+  display: block;
+  width: 400px;
+  border-radius: 9999px;
+  background-color: #ffc75f;
+  color: black;
+  height: 55px;
+  font-size: 25px;
+  text-align: center;
+  font-family: koodak;
+  position: relative;
+  top: 5px;
+  margin: 30px;
+  transition: 0.3s ease-in;
+}
+
+input:hover {
+  transform: translateY(-2px);
+}
+
+button {
+  text-align: center;
+  width: 410px;
+  height: 65px;
+  font-size: 35px;
+  border-radius: 9999px;
+  margin-top: 10px;
+  font-family: b titr;
+  background-color: #00c9a7;
+  color: white;
+  transition: 0.4s ease-in;
+}
+
+button:hover {
+  background-color: white;
+  color: #00c9a7;
+}
+
+#password {
+  position: relative;
+  bottom: 50px;
+}
+
+#p-sign {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  header{
+    width: 250px;
+    border-radius: 0px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  h1{
+    padding-bottom: 10  px;
+    font-size: 30px;
+  }
+  form{
+    height: 350px;
+    width: 250px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  input{
+    height: 50px;
+    width: 200px;
+    font-size: 20px ;
+  }
+  button{
+    margin-top: 80px;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+  }
+  #p-sign{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: b titr;
+  background: white;
+  direction: rtl;
+}
+
+#father {
+  display: flex;
+}
+
+#aside {
+  width: 260px;
+  text-shadow: 1px 2px 0px rgba(255, 255, 255, 0.822);
+  color: black;
+  padding-top: 25px;
+  background-color: #00c9a7;
+  height: 100vh;
+  position: fixed;
+}
+
+#aside-titr {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+#aside-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+#aside-nav a {
+  color: black;
+  text-decoration: none;
+  padding: 14px 30px;
+  transition: 0.3s;
+  font-size: 22px;
+}
+
+#aside-nav a:hover {
+  background-color: #94c5bd;
+  color: black;
+}
+
+#main {
+  flex: 1;
+  margin-top: 20px;
+  margin-right: 280px;
+  margin-left: 30px;
+  border-radius: 15px;
+  padding: 50px;
+  background-color: #d65db1;
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#reports {
+}
+
+#today-report {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+#yesterday-report {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+#last-7-day-report {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+#last-month-report {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+#last-year-report {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.box-detail {
+  background-color: #d6a0c648;
+  border-radius: 15px;
+  transition: transform 0.8s;
+}
+
+.box-detail:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.box-logo {
+  font-size: 43px;
+}
+
+.detail {
+  color: white;
+  text-shadow: 1px 2px 0px rgb(29, 28, 28);
+  font-size: 25px;
+}
+h3 {
+  text-align: center;
+  font-size: 50px;
+  color: #ffc75f;
+  margin: 50px;
+}
+
+#active-page {
+  background-color: #88f5e3;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  #aside {
+    width: 200px;
+  }
+
+  #main {
+    margin-right: 200px;
+  }
+}
